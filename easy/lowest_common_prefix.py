@@ -1,6 +1,7 @@
 # Problem Link: https://leetcode.com/problems/longest-common-prefix/
 from typing import List
 
+
 class Solution:
     def longestCommonPrefix(self, s: List[str]) -> str:
 
@@ -29,8 +30,3 @@ class Solution:
                 break
 
         return common
-
-
-
-
-
