@@ -1,5 +1,4 @@
 # Problem Link: https://leetcode.com/problems/search-insert-position/
-
 from typing import List
 
 
@@ -19,7 +18,10 @@ class Solution:
                 index = mid + 1
 
             else:
-                index = mid
                 end = mid - 1
 
         return index
+
+
+
+
